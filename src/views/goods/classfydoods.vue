@@ -93,7 +93,7 @@
             :rules="[
               { required: true, message: '不能为空', trigger: 'blur' },
               {
-                min: 5,
+                min: 1,
                 max: 10,
                 message: '长度在 5 到 10 个字符',
                 trigger: 'blur',

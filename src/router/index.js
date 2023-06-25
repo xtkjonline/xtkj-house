@@ -77,7 +77,7 @@ const dynamicRoutes = [
       },
       {
         path: '/layout/editgoods',
-        meta: { title: '修改商品' },
+        meta: { title: '修改商品', role: ['super', 'normal'] },
         component() { return import("../views/goods/editgoods.vue") }
       },
     ]
