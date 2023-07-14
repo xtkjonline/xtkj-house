@@ -1,3 +1,5 @@
+这是一个练手的外卖平台
+技术栈是vue2，vuex,vue-router等
 # vx
 
 ## Project setup
